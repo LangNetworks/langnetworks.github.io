@@ -1,0 +1,188 @@
+body {
+	background-color: black;
+	font-family: 'Russo One', sans-serif;
+	margin: 0;
+}
+
+.made {
+	font-size: 15px;
+}
+
+
+
+
+div {
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+img {
+	/*border: 1px solid white;*/
+}
+
+.todo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+}
+
+.goku {
+	position: relative;
+	left: 150px;
+	top: 180px;
+}
+
+.goku2 {
+	transform: translateX(-120px);
+}
+
+.gohan {
+	position: absolute;
+	top: 50px;
+}
+
+.gohan2 {
+	transform: translateX(-125px);
+}
+
+.kale {
+	position: absolute;
+	top: 45px;
+}
+
+.kale1 {
+transform: translateX(120px);
+}
+
+.vegeta {
+	position: relative;
+	top: 160px;
+	left: 270px;
+}
+
+.vegeta1 {
+	transform: translateX(145px);
+}
+
+.freeza {
+	position: absolute;
+	top: 300px;
+	transform: translateX(60px);
+
+}
+
+.freeza1 {
+	transform: translateX(160px);
+}
+
+
+
+.hit {
+	position: absolute;
+	top: 340px;
+}
+
+.hit2 {
+transform: translateY();
+transform: translateX(-170px);
+}
+
+.jiren {
+	position: relative;
+	top: 210px;
+	right: 150px;
+}
+
+.jiren1 {
+	top: 100px;
+}
+
+.jiren2 {
+	transform: translateX(-160px);
+}
+
+.invisible {
+	opacity: 0;
+}
+
+.efecto {
+transition: 1s;
+}
+
+.goku:hover .goku2 {
+opacity: 1;
+transition: 1s;
+}
+
+.goku:hover .goku1 {
+opacity: 0;
+transition: 1s;
+}
+
+.gohan:hover .gohan2 {
+opacity: 1;
+transition: 1s;
+}
+
+.gohan:hover .gohan1 {
+opacity: 0;
+transition: 1s;
+}
+
+.kale:hover .kale2 {
+opacity: 1;
+transition: 1s;
+}
+
+.kale:hover .kale1 {
+opacity: 0;
+transition: 1s;
+}
+
+.vegeta:hover .vegeta2 {
+opacity: 1;
+transition: 1s;
+}
+
+.vegeta:hover .vegeta1 {
+opacity: 0;
+transition: 1s;
+}
+
+.freeza:hover .freeza2 {
+opacity: 1;
+transition: 1s;
+}
+
+.freeza:hover .freeza1 {
+opacity: 0;
+transition: 1s;
+}
+
+.hit:hover .hit2 {
+opacity: 1;
+transition: 1s;
+}
+
+.hit:hover .hit1 {
+opacity: 0;
+transition: 1s;
+}
+
+.jiren:hover .jiren2 {
+opacity: 1;
+transition: 1s;
+}
+
+.jiren:hover .jiren1 {
+opacity: 0;
+transition: 1s;
+}
